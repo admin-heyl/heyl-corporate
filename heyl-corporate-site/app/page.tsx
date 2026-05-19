@@ -68,7 +68,7 @@ export default function Home() {
           <p>
             このサービスがあることで、この会社で働くことで、少しだけ人生が豊かになる。
             HEYLは、そんな存在を目指しています。
-          <p>
+          </p>
         </div>
       </section>
 
