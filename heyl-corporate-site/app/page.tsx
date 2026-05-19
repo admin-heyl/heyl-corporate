@@ -21,7 +21,6 @@ const companyRows = [
   ["所在地", "〒251-0051 神奈川県藤沢市白旗1-12-31"],
   ["設立", "2024年3月"],
   ["代表", "尾島 久瑠美、瀬戸西 彩夏"],
-  ["ドメイン", "heyl.co.jp"]
 ];
 
 export default function Home() {
@@ -66,8 +65,10 @@ export default function Home() {
         <SectionTitle title="ABOUT" />
         <div className="center-copy">
           <h2>Help Enrich Your Life - あなたの人生を豊かにするお手伝い -</h2>
-          <p>このサービスがあることで、この会社で働くことで、少しだけ人生が豊かになる。HEYLは、そんな存在を目指しています。</p>
-          <p>大きく人生を変えるのではなく、いつもの毎日の見え方が少しだけ柔らかくなること。その静かな変化をテクノロジーとデザインでつくっていきます。</p>
+          <p>
+            このサービスがあることで、この会社で働くことで、少しだけ人生が豊かになる。
+            HEYLは、そんな存在を目指しています。
+          <p>
         </div>
       </section>
 
