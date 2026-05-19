@@ -11,9 +11,7 @@ const scenes = [
 ];
 
 const services = [
-  ["学生向けサービス", "日々の学校生活や人間関係が、少しだけ前向きに見えるような体験を準備しています。"],
-  ["感情に寄り添う体験設計", "効率だけでは拾いきれない不安や揺らぎに、静かに寄り添うプロダクトを設計します。"],
-  ["生活者との共創", "ユーザー、企業、クリエイターとともに、生活の余白を豊かにする接点を育てます。"]
+  ["学生向けサービス", "誰かの得意や経験が、誰かの支えになるような体験を準備しています。"],
 ];
 
 const companyRows = [
@@ -64,7 +62,7 @@ export default function Home() {
       <section className="section about" id="about">
         <SectionTitle title="ABOUT" />
         <div className="center-copy">
-          <h2>Help Enrich Your Life - あなたの人生を豊かにするお手伝い -</h2>
+          <h2>Help Enrich Your Life — あなたの人生を豊かにするお手伝い —</h2>
           <p>
             このサービスがあることで、この会社で働くことで、少しだけ人生が豊かになる。
             <br />
@@ -119,7 +117,7 @@ export default function Home() {
       </section>
 
       <footer className="site-footer">
-        <a href="#top">PRIVACY POLICY</a><span>/</span><span>© 2026 合同会社HEYL. All rights reserved.</span><span className="footer-domain">heyl.co.jp</span>
+        <a href="#top">PRIVACY POLICY</a><span>/</span><span>© 2026 合同会社HEYL. All rights reserved.</span>
       </footer>
     </main>
   );
