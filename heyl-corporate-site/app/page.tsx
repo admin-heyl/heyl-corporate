@@ -65,8 +65,11 @@ export default function Home() {
         <SectionTitle title="ABOUT" />
         <div className="center-copy">
           <h2>Help Enrich Your Life - あなたの人生を豊かにするお手伝い -</h2>
-          <p>このサービスがあることで、この会社で働くことで、少しだけ人生が豊かになる。</p>
-          <p>HEYLは、そんな存在を目指しています。</p>
+          <p>
+            このサービスがあることで、この会社で働くことで、少しだけ人生が豊かになる。
+            <br />
+            HEYLは、そんな存在を目指しています。
+          </p>
         </div>
       </section>
 
